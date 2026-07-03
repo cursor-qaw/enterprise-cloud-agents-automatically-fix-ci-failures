@@ -12,6 +12,10 @@
   font-weight: 600;
 }
 
+.test {
+  margin: 0 0 1.25rem;
+}
+
 .add {
   display: flex;
   gap: 0.5rem;
@@ -34,7 +38,8 @@
   outline-offset: 1px;
 }
 
-.add button {
+.add button,
+.test button {
   padding: 0.5rem 0.85rem;
   font: inherit;
   font-weight: 500;
@@ -45,7 +50,8 @@
   cursor: pointer;
 }
 
-.add button:hover {
+.add button:hover,
+.test button:hover {
   filter: brightness(1.03);
 }
 
