@@ -12,6 +12,10 @@
   font-weight: 600;
 }
 
+.test-actions {
+  margin-bottom: 1.25rem;
+}
+
 .add {
   display: flex;
   gap: 0.5rem;
