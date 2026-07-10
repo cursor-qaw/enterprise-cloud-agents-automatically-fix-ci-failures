@@ -34,7 +34,8 @@
   outline-offset: 1px;
 }
 
-.add button {
+.add button,
+.test-btn {
   padding: 0.5rem 0.85rem;
   font: inherit;
   font-weight: 500;
@@ -45,8 +46,13 @@
   cursor: pointer;
 }
 
-.add button:hover {
+.add button:hover,
+.test-btn:hover {
   filter: brightness(1.03);
+}
+
+.test-btn {
+  margin-bottom: 1.25rem;
 }
 
 .empty {
