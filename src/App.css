@@ -18,6 +18,11 @@
   margin-bottom: 1.25rem;
 }
 
+.test {
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
 .add input {
   flex: 1;
   min-width: 0;
@@ -34,7 +39,8 @@
   outline-offset: 1px;
 }
 
-.add button {
+.add button,
+.test {
   padding: 0.5rem 0.85rem;
   font: inherit;
   font-weight: 500;
@@ -45,7 +51,8 @@
   cursor: pointer;
 }
 
-.add button:hover {
+.add button:hover,
+.test:hover {
   filter: brightness(1.03);
 }
 
