@@ -32,6 +32,14 @@ export default function App() {
         <button type="submit">Add</button>
       </form>
 
+      <button
+        type="button"
+        className="test-button"
+        onClick={() => console.log('Good evening folks!')}
+      >
+        Test
+      </button>
+
       {items.length === 0 ? (
         <p className="empty">No tasks yet.</p>
       ) : (
